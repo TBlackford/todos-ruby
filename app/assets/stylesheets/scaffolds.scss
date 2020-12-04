@@ -1,9 +1,13 @@
 @import "bulma/bulma.sass";
 
 body {
-  background-color: #fff;
+  background-color: #fefefe;
   color: #333;
   margin: 33px;
+}
+
+html {
+  background-color: #fefefe;
 }
 
 body, p, ol, ul, td {

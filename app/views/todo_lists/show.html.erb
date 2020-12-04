@@ -11,11 +11,17 @@
 </p>
 
 <div id="todo_items_wrapper">
-    <%= render @todo_list.todo_items %>
+    <table class="table is-bordered">
+        <tbody>
+            <%= render @todo_list.todo_items %>
+        </tbody>
+    </table>
     <div id="form">
         <%= render "todo_items/form" %>
     </div>
 </div>
+
+<hr />
 
 <%= link_to 'Edit', edit_todo_list_path(@todo_list) %> |
 <%= link_to 'Back', todo_lists_path %>
