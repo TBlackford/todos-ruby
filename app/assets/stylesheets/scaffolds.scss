@@ -12,7 +12,7 @@ html {
 
 body, p, ol, ul, td {
   font-family: verdana, arial, helvetica, sans-serif;
-  font-size: 13px;
+  font-size: 16px;
   line-height: 18px;
 }
 
@@ -83,4 +83,25 @@ div.actions {
 
 label {
   display: block;
+}
+
+.container {
+  margin: 0 auto;
+}
+
+.box {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.new-todo {
+  margin: 0 auto;
+}
+
+.table {
+  margin: 24px 8px 0 8px;
+
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
 }
