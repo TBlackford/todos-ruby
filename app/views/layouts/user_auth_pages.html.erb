@@ -1,0 +1,13 @@
+<% content_for :user_auth do -%>
+    <section class="hero is-link is-fullheight">
+        <div class="hero-body">
+            <div class="container">
+                <div class="auth-form-wrap">
+                    <%= yield %>
+                </div>
+            </div>
+        </div>
+    </section>
+<% end -%>
+
+<%= render :file => 'layouts/application' %>

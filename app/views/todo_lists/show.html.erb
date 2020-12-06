@@ -13,7 +13,7 @@
 <div id="todo_items_wrapper">
     <table class="table is-bordered">
         <tbody>
-            <%= render @todo_list.todo_items %>
+        <%= render @todo_list.todo_items %>
         </tbody>
     </table>
     <div id="form">
@@ -21,7 +21,7 @@
     </div>
 </div>
 
-<hr />
+<hr/>
 
 <%= link_to 'Edit', edit_todo_list_path(@todo_list) %> |
 <%= link_to 'Back', todo_lists_path %>

@@ -12,10 +12,14 @@
     </head>
 
     <body>
-        <div class="container">
-            <div class="box">
-                <%= yield %>
-            </div>
-        </div>
+        <% if notice %>
+            <p class="alert alert-success"><%= notice %></p>
+        <% end %>
+        <% if alert %>op
+            <p class="alert alert-danger"><%= alert %></p>
+        <% end %>
+        <%#= yield %>
+        <%= yield(:todos_pages) or yield %>
+        <%= yield(:user_auth) or yield %>
     </body>
 </html>
